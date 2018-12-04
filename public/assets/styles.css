@@ -1,0 +1,189 @@
+*{
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+/* home de la página */
+/* header */
+.home {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("imagenes/fondo1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  padding: 10px;
+  vertical-align: top;
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.inicio{
+  font-size: 20px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+}
+.somos{
+  font-size: 20px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+}
+.galeria{
+  font-size: 20px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+}
+
+/* centro de pagina */
+.name {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  margin-bottom: auto;
+  color: white;
+}
+.text{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin: 0px;
+  color: white;
+
+}
+
+
+#particles{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* primer scroll */
+.scroll1 {
+  background-color: black;
+  /* background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("imagenes/fondoh.jpg"); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 800px;
+}
+
+.texto1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.info{
+  display: flex;
+  align-items:center;
+}
+
+
+/*Scroll2 de la página */
+.scroll2 {
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("imagenes/scroll2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  margin: 80px;
+}
+label {
+  border-radius: 4px;
+  width: 300px;
+  vertical-align: middle;
+  background-size: cover;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+label:hover {
+  box-shadow: 2px 5px 5px gray;
+  transform: translateY(-2px);
+}
+.rescue{
+  background-image: url("imagenes/route1.jpg");
+}
+.fixme{
+  background-image: url("imagenes/route2.jpg");
+}
+
+.registro{
+  text-align: center;
+}
+.botonR {
+  background-color: #f2f2f2;
+  border: 4px solid transparent;
+  font-family: transformers;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 40px;
+  color: #39393A;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.botonR:hover{
+  color: red;
+  border-color: #4c4b4b;
+}
+/*
+scroll3 de la página  */
+.scroll3 {
+  background-color: black;
+  /* background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("imagenes/scroll3.jpg"); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+footer{
+  bottom: 0;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  background-color: #597081;
+}
+
+.enlace div {
+  border-bottom: 1px solid #B0B2B8;
+  margin-left:10px;
+  color: #40434E;
+  display: inline-block;
+
+}

@@ -1,0 +1,14 @@
+{
+  "name": "mecanics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node_modules/.bin/live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
