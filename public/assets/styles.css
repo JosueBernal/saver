@@ -9,6 +9,7 @@
   position: relative;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
   width: 100%;
   height: 100vh;
 }
@@ -32,7 +33,7 @@ header {
 .button img{
   width: 200px;
   height: 40px;
-  margin-right: 750px
+  margin-right: 800px
 }
 
 .inicio{
@@ -107,6 +108,10 @@ header {
 
 }
 /* primer scroll */
+.inf{
+  font-family: "Questrial";
+  color: white;
+}
 .scroll1 {
   /* background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("imagenes/fondoh.jpg"); */
   background-position: center;
@@ -116,7 +121,6 @@ header {
   width: 100%;
   height: 100vh;
   color: white;
-  font-size: 30px;
 }
 
 #particles{
@@ -128,14 +132,14 @@ header {
 }
 
 .sub-title {
-  font-family: "Questrial";
-  margin-bottom: 10px;
-  font-size: 80px;
+  font-family: "Poppins";
+  margin-bottom: 20px;
+  font-size: 60px;
   text-align: center;
 }
 
 img {
-  width: 800px;
+  width: 700px;
 }
 
 .texto1 {
@@ -143,7 +147,7 @@ img {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 60px;
 }
 
 .info{
@@ -151,8 +155,8 @@ img {
   align-items:center;
 }
 
-.inf{
-  text-align: center;
+.texto1 p{
+  text-align: right;
   font-size: 20px;
 }
 
@@ -210,7 +214,7 @@ img {
 }
 
 .tarjeta p{
-  padding: 10px;
+  padding: 5px;
   font-size: 20px;
 }
 .registro{
@@ -244,7 +248,7 @@ scroll3 de la página  */
   background-size: cover;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   color: white;
   font-size: 30px;
   text-align: center;
@@ -258,6 +262,9 @@ scroll3 de la página  */
   left: 0;
   z-index: -1;
 }
+.contac{
+  padding: 60px;
+}
 
 .contac h4{
   color: white;
@@ -266,14 +273,12 @@ scroll3 de la página  */
 footer{
   background-color: #032B43;
   display: flex;
-  bottom: 0;
-  height: 380px;
-  position: absolute;
+  box-sizing: border-box;
+  padding: 50px;
   width: 100%;
 }
 
 .maps{
-  padding: 50px;
   width: 300px;
   height: 300px;
 }
@@ -288,13 +293,18 @@ footer{
 }
 .face{
   width: 70px;
-  padding: 30px;
+  padding: 0 30px;
 }
 .insta{
   width: 70px;
-  padding: 30px;
+  padding: 0 30px;
 }
 .twit{
-  margin-left: -40px;
-  width: 200px;
+  padding: 0 30px;
+  width: 70px;
+}
+
+.datos{
+  text-align: right;
+  font-size: 25px;
 }
