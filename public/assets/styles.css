@@ -20,20 +20,29 @@ video{
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 10px;
   vertical-align: top;
   color: white;
+  z-index: 2;
 }
+
+.black-Header{
+  background-color: black;
+}
+
 .button {
   display: flex;
   justify-content: flex-end;
   vertical-align: top;
 }
 
-.button img{
-  width: 200px;
-  height: 40px;
-  margin-right: 800px
+.icono{
+  font-family: "Poppins";
+  font-size: 30px;
+  margin-right:900px;
 }
 
 .inicio{
@@ -139,7 +148,10 @@ header {
 }
 
 img {
-  width: 700px;
+  padding: 30px;
+  /* clip-path: polygon(11110% 1110%, 0% 75%, 0% 0%, 0% 10%); */
+  width: 600px;
+  z-index:1;
 }
 
 .texto1 {
@@ -148,6 +160,11 @@ img {
   justify-content: center;
   box-sizing: border-box;
   padding: 60px;
+  transform: translateX(300px);
+}
+
+.llanta {
+  transform: translateX(-300px);
 }
 
 .info{
@@ -157,7 +174,7 @@ img {
 
 .texto1 p{
   text-align: right;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
@@ -263,6 +280,7 @@ scroll3 de la página  */
   z-index: -1;
 }
 .contac{
+  transform: translateX(300px);
   padding: 60px;
 }
 
